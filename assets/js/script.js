@@ -1,3 +1,5 @@
+// Transition during scroll
+
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if(entry.isIntersecting){
@@ -16,6 +18,8 @@ hiddenElements.forEach((el) => observer.observe(el));
 hiddenElementsR.forEach((el) => observer.observe(el));
 hiddenElementsT.forEach((el) => observer.observe(el));
 
+
+// counter
 let valueDisplays = document.querySelectorAll(".num");
 let interval = 5000;
 
@@ -27,12 +31,14 @@ valueDisplays.forEach((valueDisplays) => {
     startValue += 10;
     valueDisplays.textContent = startValue;
     if(startValue == endValue) {
-      clearInterval(counter);
+      clearInterval(counter);            
     }
   }, duration);
 });
 
 
+
+// Shitty navigation
 const changeBtn1 = document.getElementById('changeBtn-1')
 const   changeBtn2 = document.getElementById('changeBtn-2')
 const  changeBtn3 = document.getElementById('changeBtn-3');
