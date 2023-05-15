@@ -206,6 +206,10 @@ p {
   /* color: white; */
 }
 
+.card-edit:hover .fa-icon {
+  border: 1px solid white;
+}
+
 h5.card-title {
   font-weight: 800 !important;
 }
