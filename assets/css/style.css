@@ -197,17 +197,57 @@ p {
   color:  var(--primary-color);
 }
 
-.card-edit:hover h5 p {
+.card-edit:hover h5 {
   color: #fff !important;
 }
+.card-edit p {
+ color: #666666;
+}
+.card-edit:hover p {
+ color: #b5b5b5;
+}
 
-.card-icon{
-  background-color: var(--primary-color);
-  /* color: white; */
+.card-edit:hover .fa-icon .card-icon{
+  
+  
+}
+
+
+
+.card-edit .fa-icon {
+  border: 1px solid var(--primary-color);
+  color: #6827ffbf;
 }
 
 .card-edit:hover .fa-icon {
   border: 1px solid white;
+  /* color: white !important; */
+  background-color: #fff;
+}
+
+.card-edit-2 p {
+  color: #666666;
+}
+.card-edit-2:hover p {
+  color: #b5b5b5;
+ }
+.card-edit-2:hover{
+  background-color: var(--primary-color);
+  color: #;
+  transition: ease-in-out .2s;
+}
+
+.card-edit-2:hover h5 {
+  color: white !important;
+}
+
+.card-icon-2 {
+  background-color: var(--primary-color);
+}
+
+.card-edit-2:hover .card-icon-2 {
+  background-color: white;
+  color: var(--primary-color);
 }
 
 h5.card-title {
