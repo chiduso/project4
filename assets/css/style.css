@@ -232,8 +232,7 @@ p {
   color: #b5b5b5;
  }
 .card-edit-2:hover{
-  background-color: var(--primary-color);
-  color: #;
+  background-color: var(--primary-color);  
   transition: ease-in-out .2s;
 }
 
@@ -336,7 +335,7 @@ span.count{
 .btn-edit:hover{
   background-color: #421b9b !important;
   border: 1px solid var(--primary-color) !important;
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
 }
 
 
